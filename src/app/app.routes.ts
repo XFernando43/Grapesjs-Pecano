@@ -3,7 +3,7 @@ import { GrapesJSComponent } from '../pages/grapes-js/grapes-js.component';
 
 export const routes: Routes = [
     {
-        path:'grapesJS',
+        path:'',
         component:GrapesJSComponent
     }
 ];
