@@ -18,8 +18,9 @@ export class GrapesJSComponent implements OnInit {
 
   ngOnInit() {
     createStudioEditor({
-      licenseKey: 'YOUR_LICENSE_KEY',
+      licenseKey: '32038e8cd2764e2b9da3d5985a4049a8ec7abf58784447a0966485ce4dd8f21e',
       root: this.editorEl.nativeElement,
+      theme: 'dark',
       project: {
         default: {
           pages: [
